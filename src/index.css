@@ -1,0 +1,8 @@
+@import "@fontsource/vazir/index.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-vazir;
+ }
