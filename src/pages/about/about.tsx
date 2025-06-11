@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <div className="h-full w-full flex justify-center items-center p-3">
-      <div className=" w-1/2 border h-full rounded-lg bg-slate-100 p-2 flex flex-col gap-2">
+    <div className="h-full w-full flex justify-center items-center p-3 overflow-y-auto">
+      <div className=" w-full md:w-1/2 border h-full rounded-lg bg-slate-100 p-2 flex flex-col gap-2">
         <div className="text-2xl">درباره ما</div>
         <p>
           به فروشگاه ما خوش آمدید! ما در فروشگاه اکسسوری خود تلاش کرده‌ایم تا
