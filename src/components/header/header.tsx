@@ -11,9 +11,9 @@ export default function Header() {
       <div className="flex flex-col lg:flex-row justify-end items-center gap-1  w-1/2 p-1">
         <Input placeholder="دنبال چی میگردی رفیق؟" className="" />
         <div className="flex items-center justify-center gap-1">
-          <Button onClick={() => nav("/about")}>
+          <Button onClick={() => nav("/contact-us")}>
             <FaInfoCircle size={20} />
-            <span className="w-max">{`درباره ما`}</span>
+            <span className="w-max">{`تماس باما`}</span>
           </Button>
           <Button>
             <GiBasket size={20} />

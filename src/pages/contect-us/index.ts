@@ -1,0 +1,1 @@
+export {default as ContectUs} from "./contect-us";
